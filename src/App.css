@@ -1,0 +1,103 @@
+.main {
+  border: 2px solid black;
+  width: 30%;
+  height: 100%;
+  background-color: #ff9999;
+  margin: 60px auto;
+  border-color: #ff9999;
+  padding: 20px;
+}
+
+.content {
+  text-align: center;
+  border: 2px solid black;
+  width: 70%;
+  height: 500px;
+  margin: 20px auto;
+  background-color: #ffeecc;
+  border-radius: 8px;
+  border: #ffeecc;
+  padding: 20px;
+  overflow: auto;
+}
+
+.content::-webkit-scrollbar{
+display: none
+}
+
+.input-div {
+  text-align: start;
+  width: 95%;
+  border-radius: 9px;
+  height: 40px;
+  background-color: #b30000;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+  cursor: pointer;
+}
+
+.add-button {
+  position: absolute;
+  right: 620px;
+  border-radius: 10px;
+  height: 25px;
+  width: 25px;
+  border: none;
+  color: white;
+  background-color: #ff9999;
+  margin-top: 5px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+/* Modal css */
+
+.modal-main {
+  /* border: 2px solid black; */
+  width: 30%;
+  height: 83%;
+  margin: 20px auto;
+}
+
+.modal-content {
+  /* border: 1px solid red; */
+  background-color: #ff9999;
+  padding: 20px;
+}
+
+.modal-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.cancel-btn {
+  background-color: gray;
+  border-radius: 4px;
+  height: 30px;
+  width: 60px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: orange;
+  border-radius: 4px;
+  height: 30px;
+  width: 60px;
+  border: none;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.input-color {
+  background-color: #ffeecc;
+  width: 100%;
+  height: 25px;
+  border-radius: 7px;
+  border: none;
+}
