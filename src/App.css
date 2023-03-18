@@ -1,7 +1,5 @@
 .main {
   border: 2px solid black;
-  width: 30%;
-  height: 100%;
   background-color: #ff9999;
   margin: 60px auto;
   border-color: #ff9999;
@@ -54,14 +52,10 @@ display: none
 /* Modal css */
 
 .modal-main {
-  /* border: 2px solid black; */
-  width: 30%;
-  height: 83%;
   margin: 20px auto;
 }
 
 .modal-content {
-  /* border: 1px solid red; */
   background-color: #ff9999;
   padding: 20px;
 }

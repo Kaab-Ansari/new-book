@@ -58,13 +58,15 @@ function App() {
     )
       .then((res) => res.json())
       .then((json) => console.log(json));
+      console.log("run add btn")
+
   }
 
-  useEffect(() => {
-    fetch("https://crudoperation-9385d-default-rtdb.firebaseio.com/books.json")
-      .then((res) => res.json())
-      .then((json) => (json ? setContent(json) : setContent([])));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://crudoperation-9385d-default-rtdb.firebaseio.com/books.json")
+  //     .then((res) => res.json())
+  //     .then((json) => (json ? setContent(json) : setContent([])));
+  // }, []);
 
   function handleDelete(id) {
     setContent((prevCard) => prevCard.filter((card) => card.id !== id));
