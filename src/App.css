@@ -1,5 +1,11 @@
+body{
+  background-color: #ff9999;
+}
+
+
+
 .main {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   background-color: #ff9999;
   margin: 60px auto;
   border-color: #ff9999;
@@ -8,7 +14,7 @@
 
 .content {
   text-align: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 70%;
   height: 500px;
   margin: 20px auto;
@@ -52,7 +58,9 @@ display: none
 /* Modal css */
 
 .modal-main {
-  margin: 20px auto;
+  margin: 50px auto ;
+  width: 100%;
+  height: auto;
 }
 
 .modal-content {
